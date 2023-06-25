@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS employees_db;
-CREATE DATABASE employees_db;
+DROP DATABASE IF EXISTS tasklist_db;
+CREATE DATABASE tasklist_db;
 
-USE employees_db;
+USE tasklist_db;
 
 CREATE TABLE employees (
   id INT NOT NULL,
