@@ -97,7 +97,7 @@ connection.connect(function(err) {
       .prompt([
         {
           type: "input",
-          message: "What's the name of the role?",
+          message: "What's the title of the role?",
           name: "roleName"
         },
         {
