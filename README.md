@@ -12,7 +12,9 @@ Employee Tracker using MYSQL
 4. [Contributing](#contributing)
 5. [Tests](#tests)
 6. [Images](#images)
+     1. [Video](#video)
 7. [Authors](#authors)
+8. [Sources](#sources)
 
 
 
@@ -52,6 +54,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 MIT
 
 ## Contributing:
+Neta2393@github.com
 
 ## Tests:
 NPM run start to check if any bugs are present
@@ -67,3 +70,8 @@ NPM run start to check if any bugs are present
 ## Authors:
 Benethea Hardin 
 https://github.com/Neta2393/whos-job-is-it-anyway
+
+## Sources:
+Lesson 25 of the SQL chapter of the bootcamp
+https://www.globo.tech/learning-center/mysql-101-basics/
+https://www.w3schools.com/nodejs/nodejs_mysql_create_table.asp

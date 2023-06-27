@@ -18,7 +18,7 @@ connection.connect(function(err) {
     //  connection.end();//
 });
   
-  //What the user will first see once logged into node
+  //The lines of code below is the drop down menu that is populated when the user goes into node using npm run start
   function startScreen() {
     inquirer
       .prompt({
