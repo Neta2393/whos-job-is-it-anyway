@@ -1,7 +1,7 @@
 # whos-job-is-it-anyway
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Employee Tracker using SQL
+Employee Tracker using MYSQL
 
 # Table of Contents
 1. [About](#about)
