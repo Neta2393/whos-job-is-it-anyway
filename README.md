@@ -72,6 +72,8 @@ Benethea Hardin
 https://github.com/Neta2393/whos-job-is-it-anyway
 
 ## Sources:
-Lesson 25 of the SQL chapter of the bootcamp
 https://www.globo.tech/learning-center/mysql-101-basics/
 https://www.w3schools.com/nodejs/nodejs_mysql_create_table.asp
+
+
+Rewatching the previous bootcamp classes and looking at the lessons
