@@ -2,7 +2,7 @@ const inquirer = require("inquirer");
 const mysql = require("mysql2");
 
 
-
+// Created a connection with mysql added password and database name
 const connection = mysql.createConnection ({
     host: "localhost",
     port: 3306,
@@ -19,7 +19,7 @@ connection.connect(function(err) {
     //  connection.end();//
 });
   
-  //The lines of code below is the drop down menu that is populated when the user goes into node using npm run start
+  //The lines of code below is the drop down menu that is populated when the user goes into node using npm run start or node server.js
   function startScreen() {
     inquirer
       .prompt({
@@ -69,7 +69,7 @@ connection.connect(function(err) {
   }
   
   
-  //All of the corresponding functions found below
+  //The lines of code below are the prompts you will be given when you want to add a Department
   
   function addDepartment() {
   
@@ -92,7 +92,7 @@ connection.connect(function(err) {
       })
   }
   
-  
+  //The lines of code below are the prompts you will be given when you want to add a role
   function addRole() {
     inquirer
       .prompt([
@@ -122,7 +122,7 @@ connection.connect(function(err) {
         });
       });
   }
-  
+   //The lines of code below are the prompts you will be given when you want to add an employee
   function addEmployee() {
     inquirer
       .prompt([
@@ -158,7 +158,7 @@ connection.connect(function(err) {
       });
   }
   
-  //Since we're using inquirer, we can pass the query into the method as an array
+  //The lines of code below are passing the query into the method as an array
   
   function updateEmployee() {
     inquirer
@@ -189,7 +189,7 @@ connection.connect(function(err) {
   }
   
   function viewDepartment() {
-    // select from the db
+    // The lines of code below allow you to select department from the database
     let query = "SELECT * FROM department";
     connection.query(query, function(err, res) {
       if (err) throw err;
@@ -200,18 +200,18 @@ connection.connect(function(err) {
   }
   
   function viewRoles() {
-    // select from the db
+    // The lines of code below allow you to select role from the database
     let query = "SELECT * FROM role";
     connection.query(query, function(err, res) {
       if (err) throw err;
       console.table(res);
       startScreen();
     });
-    // show the result to the user (console.table)
+   // show the result to the user (console.table)
   }
   
   function viewEmployees() {
-    // select from the db
+    // The lines of code below allow you to select employees from the database
     let query = "SELECT * FROM employee";
     connection.query(query, function(err, res) {
       if (err) throw err;
