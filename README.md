@@ -50,7 +50,7 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
 ## Installation:
-npm i inquirer@8.2.4/
+npm i inquirer@8.2.4/logged into mysql and sourced the server.js file/
 
 ## License:
 MIT
@@ -78,8 +78,13 @@ Benethea Hardin
 https://github.com/Neta2393/whos-job-is-it-anyway
 
 ## Sources:
-https://www.globo.tech/learning-center/mysql-101-basics/
+https://www.globo.tech/learning-center/mysql-101-basics/ 
+
 https://www.w3schools.com/nodejs/nodejs_mysql_create_table.asp
+
+https://www.w3schools.com/js/js_switch.asp
+
+
 
 
 Rewatching the previous bootcamp classes and looking at the lessons
