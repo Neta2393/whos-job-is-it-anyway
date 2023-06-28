@@ -57,7 +57,7 @@ MIT
 Neta2393@github.com
 
 ## Tests:
-NPM run start to check if any bugs are present
+NPM run start to check if any bugs are present/ node server.js
 
 
 ## Images:
