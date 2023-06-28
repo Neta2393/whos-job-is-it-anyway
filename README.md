@@ -49,6 +49,8 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
+## Installation:
+npm i inquirer@8.2.4/
 
 ## License:
 MIT
@@ -67,6 +69,7 @@ NPM run start to check if any bugs are present/ node server.js
 ![2023-06-27](https://github.com/Neta2393/whos-job-is-it-anyway/assets/128006949/4d24bf3a-8ffc-4414-9b92-90257f6fb997)
 
 ## Video:
+https://drive.google.com/file/d/1uE2ikcIUezrMSOONnUf_4ZFahXP0KQuS/view
 
 
 
