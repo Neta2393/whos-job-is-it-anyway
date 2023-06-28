@@ -67,8 +67,7 @@ NPM run start to check if any bugs are present
 ![2023-06-27](https://github.com/Neta2393/whos-job-is-it-anyway/assets/128006949/4d24bf3a-8ffc-4414-9b92-90257f6fb997)
 
 ## Video:
-[Uploading Whos-job-is-it-anyway.webm…]()
-
+[label](../../OneDrive/Desktop/Whos-job-is-it-anyway.webm)
 
 
 ## Authors:
