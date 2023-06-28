@@ -70,6 +70,8 @@ NPM run start to check if any bugs are present/ node server.js
 
 ## Video:
 https://drive.google.com/file/d/1uE2ikcIUezrMSOONnUf_4ZFahXP0KQuS/view
+[Whos job is it anyway.webm](https://github.com/Neta2393/whos-job-is-it-anyway/assets/128006949/4f0a2166-76c7-4729-a926-28e4095a91ad)
+
 
 
 
